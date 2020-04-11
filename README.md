@@ -6,13 +6,13 @@ In this Project, a method wordCount(String input_file, String output_file) reads
 
 Methods:
 
-1.fileRead(): Method to read the Input file 
-2.writeFile(): Method to write the information of words and their frequencies on text file
-3.splitString():Helper method which extracts words from String of characters. Words formed by separating characters from delimiters
-4.putInTable(): Helper method to put the list of strings of words from input file into hashTable. And while adding also checking the load factor each time
-5.add(): Helper method to add a word in hashTable
-6.rehasing(): Helper method to resize the hashTable. Creates a new table of double the size. Recalculates the indexes of inserted elements. And puts them into the newely designed table
-7.checkLoadFactor(): Method to check for the load factor. (Load factor = number of items/hashTable size). For optimized chaining, load factor should be less than 1
+1. fileRead(): Method to read the Input file 
+2. writeFile(): Method to write the information of words and their frequencies on text file
+3. splitString():Helper method which extracts words from String of characters. Words formed by separating characters from delimiters
+4. putInTable(): Helper method to put the list of strings of words from input file into hashTable. And while adding also checking the  load factor each time
+5. add(): Helper method to add a word in hashTable
+6. rehasing(): Helper method to resize the hashTable. Creates a new table of double the size. Recalculates the indexes of inserted elements. And puts them into the newely designed table
+7. checkLoadFactor(): Method to check for the load factor. (Load factor = number of items/hashTable size). For optimized chaining, load factor should be less than 1
 
 
 
